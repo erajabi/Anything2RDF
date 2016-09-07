@@ -4,7 +4,7 @@
     <connectionString>  jdbc:mysql://localhost:3306/  </connectionString>
     <databaseName>  sampleskos  </databaseName>
     <username>  root  </username>
-    <password>  internet  </password>
+    <password>  *****  </password>
 </database>
 <owl>
     <NameSpace>  http://www.semanticweb.org/ontologies/2015/1/Ontology1424698842747.owl#   </NameSpace>
