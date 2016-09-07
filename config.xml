@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<Configuration>
+<database>
+    <connectionString>  jdbc:mysql://localhost:3306/  </connectionString>
+    <databaseName>  sampleskos  </databaseName>
+    <username>  root  </username>
+    <password>  internet  </password>
+</database>
+<owl>
+    <NameSpace>  http://www.semanticweb.org/ontologies/2015/1/Ontology1424698842747.owl#   </NameSpace>
+    <Ontology_Path>  sample.owl  </Ontology_Path>
+</owl>
+<output>
+    <!-- Output directory path -->
+    <OUTPUT_Folder>C:\\Enayat\\Programming\\erajabi  </OUTPUT_Folder>
+    <!-- Final RDF format: The built-in languages are "RDF/XML", "RDF/XML-ABBREV" as well as "N-TRIPLE", and "TURTLE". -->
+    <OUTPUT_Format> TURTLE </OUTPUT_Format>
+    <PORT> 3030  </PORT>
+    <DATASET_NAME> TEST  </DATASET_NAME>
+    <DumpFileName> 201510 </DumpFileName>
+</output>
+<mapping>
+    <SQL> SELECT * FROM terminology</SQL>
+    <column> terminology</column>
+    <Property>http://purl.org/dc/elements/1.1/title</Property>
+
+    <SQL> SELECT * FROM terminology</SQL>
+    <column> URL</column>
+    <Property>http://purl.org/dc/elements/1.1/publisher</Property>
+
+</mapping>
+
+ </Configuration>
